@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Youtube short to watch",
+    "version": "1.0.0",
+    "description": "YoutubeのShort動画を普通の動画形式で再生",
+    "content_scripts": [
+      {
+        "matches": ["https://*.youtube.com/shorts/*"],
+        "js": ["content.js"]
+      }
+    ]
+}
